@@ -5,7 +5,7 @@ const Login = () => {
     <div className="login">
       <div className="card">
         <div className="left">
-          <h1 >SociaLink.</h1>
+          <h1>SociaLink.</h1>
           <p>
             Welcome to SociaLink, the ultimate social media platform designed to help you form connections with friends and family,
             and stay up to date with all of the latest trends and topics that matter to you most. 
@@ -14,13 +14,14 @@ const Login = () => {
           <span>Don't have an account?</span>
           <button>Register</button>
         </div>
-        <div className="right"></div>
+        <div className="right">
           <h1>Login</h1>
           <form>
             <input type="text" placeholder="Username"/>
             <input type="password" placeholder="Password"/>
             <button>Login</button>
           </form>
+        </div>
       </div>
     </div>
   )

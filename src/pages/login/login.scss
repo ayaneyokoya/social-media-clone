@@ -1,18 +1,19 @@
-.login{
+.login {
     height: 100vh;
     background-color: rgba(212,228,239,1);
     display: flex;
     align-items: center;
     justify-content: center;
 
-    .card{
+    .card {
         width: 50%;
         display: flex;
         background-color: white;
         border-radius: 10px;
         min-height: 600px;
+        overflow: hidden;
 
-        .left{
+        .left {
             flex: 1;
             background: linear-gradient(rgba(110, 153, 122, 0.5), rgba(55, 61, 57, 0.5)), url("/src/components/login.jpg") center;
             background-size: cover;
@@ -22,17 +23,17 @@
             gap: 30px;
             color: white;
 
-            h1{
+            h1 {
                 font-size: 80px;
                 line-height: 100px;
             }
-            p{ 
+            p { 
 
             }
-            span{ 
+            span { 
                 font-size: 14px;
             }
-            button{ 
+            button { 
                 width: 50%;
                 padding: 10px;
                 border: none;
@@ -43,12 +44,36 @@
             }
         }
 
-        .right{
+        .right {
             flex: 1;
-            h1{}
-            form{
-                input{}
-                button{}
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+
+            h1 {
+                color: #555;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                input { 
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button { 
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    background-color: rgba(212,228,239,1);
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
             }
         }
     }
