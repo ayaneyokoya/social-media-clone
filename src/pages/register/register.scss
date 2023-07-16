@@ -1,0 +1,79 @@
+.register {
+    height: 100vh;
+    background-color: rgba(212,228,239,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card {
+        width: 50%;
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: white;
+        border-radius: 10px;
+        min-height: 600px;
+        overflow: hidden;
+
+        .left {
+            flex: 1;
+            background: linear-gradient(rgba(110, 153, 122, 0.5), rgba(55, 61, 57, 0.5)), url("/src/components/register.jpeg") center;
+            background-size: cover;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 50%;
+            color: white;
+
+            h1 {
+                font-size: 80px;
+                line-height: 100px;
+            }
+            span { 
+                font-size: 14px;
+            }
+            button { 
+                width: 50%;
+                padding: 10px;
+                border: none;
+                background-color: white;
+                color: rgb(52, 81, 100);
+                font-weight: bold;
+                cursor: pointer;
+            }
+        }
+
+        .right {
+            flex: 1;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            justify-content: center;
+
+            h1 {
+                color: #555;
+            }
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+
+                input { 
+                    border: none;
+                    border-bottom: 1px solid lightgray;
+                    padding: 20px 10px;
+                }
+                button { 
+                    width: 50%;
+                    padding: 10px;
+                    border: none;
+                    background-color: rgba(212,228,239,1);
+                    color: white;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
