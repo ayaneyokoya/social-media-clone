@@ -25,7 +25,15 @@ const NavBar = () => {
                 <input type="text" placeholder="Search..."/>
             </div>
         </div>
-        <div className="right"></div>
+        <div className="right">
+            <PersonOutlineOutlinedIcon />
+            <EmailOutlinedIcon />
+            <NotificationsOutlinedIcon />
+            <div className="user">
+                <img src="/src/components/temp.jpeg" alt="" />
+                <span>John Doe</span>
+            </div>
+        </div>  
     </div>
   )
 }
