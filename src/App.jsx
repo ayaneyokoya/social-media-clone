@@ -1,5 +1,3 @@
-import LeftBar from "./components/leftbar/LeftBar";
-import RightBar from "./components/rightbar/RightBar";
 import Login from "./pages/login/Login";
 import Register from "./pages/register/Register";
 import {
