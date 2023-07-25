@@ -18,7 +18,7 @@
             padding: 20px;
             margin-bottom: 20px;
             background-color: themed("bg");
-            
+
             span {
                 color: gray;
             }
@@ -38,6 +38,10 @@
                         height: 40px;
                         border-radius: 50%;
                         object-fit: cover;
+                    }
+
+                    p {
+                        color: gray;
                     }
 
                     span {
