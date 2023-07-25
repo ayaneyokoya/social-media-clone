@@ -11,7 +11,17 @@ import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
 
 const NavBar = () => {
   return (
-    <div className="navBar">NavBar</div>
+    <div className="navBar">
+        <div className="left">
+            <Link to="/" style={{textDecoration:"none"}}>
+            <span>SociaLink</span>
+            <HomeOutlinedIcon/>
+            <DarkModeOutlinedIcon/>
+            <GridViewOutlinedIcon/>
+            </Link>
+        </div>
+        <div className="right"></div>
+    </div>
   )
 }
 
